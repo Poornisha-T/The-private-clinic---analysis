@@ -1,0 +1,92 @@
+
+Question 1 — What are customers saying about TPC?
+Chart 1 — Sentiment Split for TPC (Pie/Donut chart)
+
+Pivot: Rows = Sentiment, Values = Count of reviews
+Filter = Company = The Private Clinic
+Shows what % of reviews are Positive / Neutral / Negative
+
+Chart 2 — Topic Mentions Bar Chart
+
+Pivot: Rows = Cost, Speed, Staff assistance, Cleanliness etc., Values = Count
+Filter = Company = The Private Clinic
+Horizontal bar chart showing which topics customers mention most
+
+Chart 3 — Treatment Category Breakdown (Bar chart)
+
+Pivot: Rows = Treatment_Category, Values = Count of reviews
+Filter = Company = The Private Clinic
+Shows which treatments customers talk about most
+
+Chart 4 — Star Rating Distribution (Column chart)
+
+Pivot: Rows = Star Score, Values = Count of reviews
+Filter = Company = The Private Clinic
+Shows how many 1-star, 2-star, 3-star, 4-star, 5-star reviews TPC has
+
+
+Question 2 — How is TPC performing against competitors?
+Chart 5 — Average Star Rating by Company (Bar chart)
+
+Pivot: Rows = Company, Values = Average of Star Score
+Sort descending so TPC position is immediately visible
+Highlight TPC bar in a different colour manually
+
+Chart 6 — Sentiment Comparison across all companies (Stacked Bar)
+
+Pivot: Rows = Company, Columns = Sentiment, Values = Count
+Shows Positive/Neutral/Negative stack for every clinic side by side
+Immediately shows who has the best/worst reputation
+
+Chart 7 — Review Volume by Company (Column chart)
+
+Pivot: Rows = Company, Values = Count of reviews
+Shows how many reviews each clinic has — important context for investors (more reviews = more established presence)
+
+Chart 8 — Average Rating by Group (Column chart)
+
+Pivot: Rows = Group, Values = Average of Star Score
+Simple Target vs Direct vs Wider Industry average comparison
+
+Chart 9 — % of 5-star reviews by Company (Bar chart)
+
+Pivot: Rows = Company, Values = Count of Star Score
+Filter Star Score = 5
+Shows who gets the most top ratings — strong investor signal
+
+Chart 10 — % of 1-star reviews by Company (Bar chart)
+
+Same as above but filter Star Score = 1
+Shows who has the most unhappy customers — risk signal for investors
+
+
+Question 3 — How has sentiment changed over time?
+Chart 11 — TPC Average Rating by Year (Line chart)
+
+Pivot: Rows = Year, Values = Average of Star Score
+Filter = Company = The Private Clinic
+Simple trend line showing if TPC is improving or declining
+
+Chart 12 — TPC vs Direct Competitors Rating over Time (Multi-line chart)
+
+Pivot: Rows = Year, Columns = Company, Values = Average of Star Score
+Filter = Group = Target + Direct only
+Most powerful chart for investors — shows TPC trajectory vs rivals
+
+Chart 13 — Sentiment trend over time for TPC (Stacked Bar by Year)
+
+Pivot: Rows = Year, Columns = Sentiment, Values = Count
+Filter = Company = The Private Clinic
+Shows if negative reviews are growing or shrinking year on year
+
+Chart 14 — Review Volume growth over time (Line/Column chart)
+
+Pivot: Rows = Year, Values = Count of reviews
+Filter = Company = The Private Clinic
+Growing review count = growing customer base = positive investor signal
+
+Chart 15 — Quarterly Rating Trend (Line chart)
+
+Pivot: Rows = Quarter (using Yr_Q column like 2018 Q1, 2018 Q2…), Values = Average Star Score
+Filter = Company = The Private Clinic
+More granular than yearly — shows if there were specific dips or spikes
